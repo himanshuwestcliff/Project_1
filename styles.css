@@ -1,0 +1,122 @@
+#index .hero {
+  background: url("/assets/images/home.jpeg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+#about .hero {
+  background: url("/assets/images/about-us-hero.jpeg") no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+#contact .hero {
+  background: url("/assets/images/contact-hero.jpeg") no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.navbar {
+  opacity: 0.9;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-buttons .btn {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+footer {
+  background: url("assets/images/footer-bg.jpeg") no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+#philosophy {
+  background: url("assets/images/about-our-philosophy-bg.jpeg") no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding: 30px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.character {
+  position: absolute;
+  left: -50px;
+  top: 0%;
+  width: 100px;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn-custom {
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.btn-primary {
+  background-color: #bde4f4;
+  border-color: #bde4f4;
+  color: #6c757d;
+}
+
+.btn-outline-primary {
+  border-color: #17a2b8;
+  color: #17a2b8;
+}
+
+.forgot-password {
+  text-align: right;
+  font-size: 0.9rem;
+}
